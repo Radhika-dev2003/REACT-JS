@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Parent from "./Parent";
+import Child from "./Child";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      {/* <h1>React is {5 + 5} times better with JSX</h1> */}
+      {/* <form>
+        <label >First name</label>
+       
+        <input type="text" value="qwert">
+         
+        </input>
+        <label >last name</label>
+       
+        <input type="text"  value="nbhjs">
+         
+        </input>
+        <input type="submit" value="submit"></input>
+      </form> */}
+      <Child/>
     </div>
   );
 }
